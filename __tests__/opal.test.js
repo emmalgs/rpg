@@ -22,4 +22,8 @@ describe('Opal', () => {
   test('should have a method sneakSnack that returns 0 when no arguments are passed', () => {
     expect(opal.sneakSnack()).toEqual(0);
   });
+
+  test('should have level property initiated at 1', () => {
+    expect(opal.level).toEqual(1);
+  });
 })

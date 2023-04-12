@@ -2,6 +2,7 @@ export default class Opal {
   constructor() {
     this.type = "skinny pig";
     this.skills = ['urinate', 'chew', 'heat-sensor', 'hiding'];
+    this.level = 1;
   }
 
   sneakSnack() {

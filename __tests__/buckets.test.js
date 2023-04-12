@@ -1,4 +1,4 @@
-import Buckets from './../src/buckets.js'
+import Buckets from '../src/js/buckets.js'
 
 describe('Buckets', () => {
   let buckets;

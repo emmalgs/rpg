@@ -1,3 +1,4 @@
+import { experiments } from 'webpack';
 import Opal from './../src/js/opal.js'
 
 describe('Opal', () => {
@@ -30,5 +31,9 @@ describe('Opal', () => {
   test('should increment level by 1 when levelUp() method is called', () => {
     opal.levelUp()
     expect(opal.level).toEqual(2);
+  });
+
+  test('should return "nom nom nom" when .nibble() is called', () => {
+    expect(opal.nibble()).toEqual("nom nom nom");
   });
 })

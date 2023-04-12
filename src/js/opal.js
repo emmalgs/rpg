@@ -6,10 +6,14 @@ export default class Opal {
   }
 
   sneakSnack() {
-    return 0
+    return 0;
   }
 
   levelUp() {
     this.level++;
+  }
+
+  nibble() {
+    return "nom nom nom";
   }
 }

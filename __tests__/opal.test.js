@@ -36,4 +36,8 @@ describe('Opal', () => {
   test('should return "nom nom nom" when .nibble() is called', () => {
     expect(opal.nibble()).toEqual("nom nom nom");
   });
+
+  test('should return "SKAWEE!" when .squeal() is called', () => {
+    expect(opal.squeal()).toEqual("SKAWEE!");
+  });
 })

@@ -16,4 +16,8 @@ export default class Opal {
   nibble() {
     return "nom nom nom";
   }
+
+  squeal() {
+    return "SKAWEE!";
+  }
 }

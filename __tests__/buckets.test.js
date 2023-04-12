@@ -2,13 +2,9 @@ import Buckets from './../src/buckets.js'
 
 describe('Buckets', () => {
   let buckets;
-  let type;
-  let skills;
 
   beforeEach(() => {
-    skills = ['sassy', 'snuggler', 'nibbler', 'dexterity']
-    type = "skinny pig"
-    buckets = new Buckets(type, skills);
+    buckets = new Buckets();
   })
 
   test('should create an instance of Buckets when called', () => {
@@ -21,5 +17,9 @@ describe('Buckets', () => {
 
   test('should create an instance of Buckets with property of skills, which is an array', () => {
     expect(Array.isArray(buckets.skills)).toEqual(true);
-  })
+  });
+
+  test('should create an instance of Buckets with a sneakSnack() method that returns 0 when no arguments are passed', () => {
+    expect(buckets.sneakSnack()).toEqual(0);
+  });
 })

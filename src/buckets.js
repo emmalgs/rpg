@@ -1,6 +1,10 @@
 export default class Buckets {
-  constructor(type, skills) {
-    this.type = type;
-    this.skills = skills;
+  constructor() {
+    this.type = "skinny pig";
+    this.skills = ['sassy', 'snuggler', 'nibbler', 'dexterity'];
+  }
+
+  sneakSnack() {
+    return 0
   }
 }

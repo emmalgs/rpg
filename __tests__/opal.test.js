@@ -18,4 +18,8 @@ describe('Opal', () => {
   test('should have a property of skills that returns an array of skills', () => {
     expect(Array.isArray(opal.skills)).toEqual(true);
   });
+
+  test('should have a method sneakSnack that returns 0 when no arguments are passed', () => {
+    expect(opal.sneakSnack()).toEqual(0);
+  });
 })

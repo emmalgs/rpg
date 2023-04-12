@@ -3,6 +3,7 @@ export default class Buckets {
     this.type = "skinny pig";
     this.skills = ['sassy', 'snuggler', 'nibbler', 'dexterity'];
     this.level = 1;
+    this.inventory = {}
   }
 
   sneakSnack() {

@@ -39,4 +39,8 @@ describe('Buckets', () => {
   test('should return "SQUEE!" when .squeal() method is called', () => {
     expect(buckets.squeal()).toEqual("SQUEE!")
   });
+
+  test('should return an inventory that is an object', () => {
+    expect(typeof buckets.inventory).toEqual("object")
+  })
 })

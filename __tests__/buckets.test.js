@@ -26,4 +26,13 @@ describe('Buckets', () => {
   test('should have property of level intialized at 1', () => {
     expect(buckets.level).toEqual(1);
   });
+
+  test('should add level by one when .levelUp() method called', () => {
+    buckets.levelUp()
+    expect(buckets.level).toEqual(2);
+  });
+
+  test('should return "munch munch" when .nibble() method is called', () => {
+    expect(buckets.nibble()).toEqual("munch munch")
+  })
 })

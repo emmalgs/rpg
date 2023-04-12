@@ -8,4 +8,12 @@ export default class Buckets {
   sneakSnack() {
     return 0;
   }
+
+  levelUp() {
+    this.level++
+  }
+
+  nibble() {
+    return `munch munch`
+  }
 }

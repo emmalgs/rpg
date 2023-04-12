@@ -1,5 +1,5 @@
 export default class Buckets {
-  constructor() {
-    
+  constructor(type) {
+    this.type = type;
   }
 }

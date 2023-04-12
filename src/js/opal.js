@@ -8,4 +8,8 @@ export default class Opal {
   sneakSnack() {
     return 0
   }
+
+  levelUp() {
+    this.level++;
+  }
 }

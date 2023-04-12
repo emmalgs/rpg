@@ -26,4 +26,9 @@ describe('Opal', () => {
   test('should have level property initiated at 1', () => {
     expect(opal.level).toEqual(1);
   });
+
+  test('should increment level by 1 when levelUp() method is called', () => {
+    opal.levelUp()
+    expect(opal.level).toEqual(2);
+  });
 })

@@ -34,5 +34,9 @@ describe('Buckets', () => {
 
   test('should return "munch munch" when .nibble() method is called', () => {
     expect(buckets.nibble()).toEqual("munch munch")
-  })
+  });
+
+  test('should return "SQUEE!" when .squeal() method is called', () => {
+    expect(buckets.squeal()).toEqual("SQUEE!")
+  });
 })

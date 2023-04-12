@@ -16,4 +16,8 @@ export default class Buckets {
   nibble() {
     return `munch munch`
   }
+
+  squeal() {
+    return `SQUEE!`
+  }
 }

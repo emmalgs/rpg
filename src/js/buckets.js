@@ -1,7 +1,12 @@
 export default class Buckets {
   constructor() {
     this.type = "skinny pig";
-    this.skills = ['sassy', 'snuggler', 'nibbler', 'dexterity'];
+    this.skills = {
+      'sassy': 2, 
+      'snuggler': 5, 
+      'nibbler': 5, 
+      'dexterity': 1
+    };
     this.level = 1;
     this.inventory = {}
   }
